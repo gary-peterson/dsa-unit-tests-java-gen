@@ -27,9 +27,9 @@ Note: example here is Eclipse -- other IDE's should be similar
 
 1. Download archive and extract all directories (e.g. "DSA-Linked-List-Source.zip")
 2. Import two extracted projects
-  - File - Open Projects from File System
+  a. File - Open Projects from File System
 	- Choose full path to "Scorer" directory
-  - File - Open Projects from File System
+  b. File - Open Projects from File System
 	- Choose full path to "Linked-List" directory
 3. Find new project in IDE
 4. Copy your package(s) into "src" directory
