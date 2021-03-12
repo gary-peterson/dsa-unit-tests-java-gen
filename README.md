@@ -42,7 +42,7 @@ Note: You should be using **JavaSE-11 or later**
 
 ## Using Unit Tests UI
 
-The window has three panes:
+The simple unit test window has three areas:
 
 	-----------------------
 	| Test Cases | Tests |
@@ -58,4 +58,18 @@ The window has three panes:
   e.g. for:
   	"subList -- FAILED"
   the test method would be "test_subList"
+
+## What if My Protocol Is Different?
+
+This is easy to solve with Java interfaces.
+
+Let us say the Java interface declares a method "first", but your class implements "firstElement".
+
+Simply add an "alias method":
+
+~~~
+public E first() {
+	return this.firstElement();
+}
+~~~
 
