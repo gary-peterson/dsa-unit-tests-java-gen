@@ -6,7 +6,7 @@ Time constraints may prevent us from writing test code.
 
 This git includes generalized test code for Java projects. It is generalized using interfaces and a simple factory approach.
 
-We will use "linked list" for example purposes (substitute other types).
+We will use "linked list" **for example purposes**.
 
 ## Running From Script
 
