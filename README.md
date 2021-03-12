@@ -58,14 +58,41 @@ The simple unit test window has three areas:
   e.g. for:
   	"subList -- FAILED"
   the test method would be "test_subList"
+  
+## Coding - Factory
+
+We need to tell the unit test framework how to construct an instance of our subject class.
+
+We do that in a factory.
+
+For our example, let us say we have a LinkedListFactory. All we would need to do is insert our class name in the method shown below.
+
+~~~
+	public static <T> DynamicList<T> newList() {
+		//return new empty LinkedList
+		return new **LinkedList**<>();
+	}
+~~~
+
+## Coding - Interface
+
+We need to comply to a protocol that the unit tests understand.
+
+We do that with Java interface(s).
+
+For our example, let us say we have a DynamicList interface. For our linked list example, we would implement the interface in the usual way:
+
+~~~
+	public class LinkedList<E> implements DynamicList<E>
+~~~
 
 ## What if My Protocol Is Different?
 
 This is easy to solve with Java interfaces.
 
-Let us say the Java interface declares a method "first", but your class implements "firstElement".
+Using our linked list example, let us say that the interface declares a method "first", but your class implements "firstElement".
 
-Simply add an "alias method":
+We would simply add an "alias method":
 
 ~~~
 public E first() {
@@ -73,3 +100,6 @@ public E first() {
 }
 ~~~
 
+The idea is simply to **comply** with the interface.
+
+Once the interface is done, the unit tests, have their needed protocol in place, and we are off and running with unit testing.
