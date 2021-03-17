@@ -14,10 +14,11 @@ We will use "linked list" **for example purposes**.
 2. See "MAC-UNIX" directory (if applicable)
 3. Copy your package(s) into "src" directory
 4. Copy your factory into approprite package directory (e.g. "linearpub")
-5. Run "compile.bat"
-6. Run "unit-tests-UI.bat"
-7. Unit Test window opens
-8. See "Using Unit Tests UI" below
+5. Run "compile.bat" (e.g. double click to run)
+6. NOTE -- you may get "windows security error" and you can click with "run anyway"
+7. Run "unit-tests-UI.bat" (e.g. double click to run)
+8. Unit Test window opens
+9. See "Using Unit Tests UI" below
 
 Or run "unit-tests-z-console.bat" for headless (console) output
 
