@@ -15,7 +15,7 @@ We will use "linked list" **for example purposes**.
 3. Copy your package(s) into "src" directory
 4. Copy your factory into approprite package directory (e.g. "linearpub")
 5. Run "compile.bat" (e.g. double click to run)
-6. NOTE -- you may get "windows security error" and you can click with "run anyway"
+6. NOTE -- windows safeguards archive files, so you will likely get "windows security error". You can safely click "More Info" and then "Run Anyway".
 7. Run "unit-tests-UI.bat" (e.g. double click to run)
 8. Unit Test window opens
 9. See "Using Unit Tests UI" below
