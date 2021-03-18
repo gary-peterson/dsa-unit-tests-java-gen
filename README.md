@@ -22,25 +22,6 @@ We will use "linked list" **for example purposes**.
 
 Or run "unit-tests-z-console.bat" for headless (console) output
 
-## Running In IDE
-
-Note: example here is Eclipse -- other IDE's should be similar
-
-1. Download archive and extract all directories (e.g. "DSA-Linked-List-Source.zip")
-2. Import extracted projects into your IDE (two as example here)
-    - File - Open Projects from File System
-      - Choose full path to "Scorer" directory
-    - File - Open Projects from File System
-      - Choose full path to "Linked-List" directory
-3. Find new project in IDE
-4. Copy your package(s) into "src" directory
-5. Copy your factory into "linearpub" package/directory
-6. Find class "_UnitTestLauncher.java"
-7. Run it
-8. See "Using Unit Tests UI" below
-
-Note: You should be using **JavaSE-11 or later**
-
 ## Using Unit Tests UI
 
 The simple unit test window has three areas:
