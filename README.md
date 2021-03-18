@@ -57,8 +57,8 @@ The simple unit test window has three areas:
 4. Simply selecting the failing test case and test and run again.
 5. Browse the test code using the test case class and test name which identifies a test method.
   e.g. for:
-  	"subList -- FAILED"
-  the test method would be "test_subList"
+      "test_isEmpty -- FAILED"
+  the test method would be "test_isEmpty" (in the identified test case class)
   
 ## Coding - Factory
 
