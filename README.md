@@ -6,7 +6,7 @@ Time constraints may prevent us from writing test code.
 
 This git includes generalized test code for Java projects. It is generalized using interfaces and a simple factory approach.
 
-Note: First [verify (and install if needed)](https://objectcoding.com/Books/XdocRoot/Intro/I/103InstallingJava/103InstallingJava.html?20112813203) a Java JDK.
+First [verify (and install if needed)](https://objectcoding.com/Books/XdocRoot/Intro/I/103InstallingJava/103InstallingJava.html?20112813203) a Java JDK.
 
 ## Running From Script (for Windows) - MAC and Unix are below
 
