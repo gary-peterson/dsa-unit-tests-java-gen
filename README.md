@@ -8,9 +8,11 @@ This git includes generalized test code for Java projects. It is generalized usi
 
 We will use "linked list" **for example purposes**.
 
+This applies to any archive with name **NOT** ending in "-For-IDE".
+
 ## Running From Script
 
-1. Download archive and extract all directories (e.g. "DSA-Linked-List.zip")
+1. Download archive and extract all directories
 2. See "MAC-UNIX" directory (if applicable)
 3. Copy your implementation package(s) to the "src" directory
     - for linked list, you would copy your "linkedlist" package (dir) into "src"
@@ -28,6 +30,8 @@ Or run "unit-tests-z-console.bat" for headless (console) output
 ## Running In IDE
 
 Note: example here is Eclipse -- other IDE's should be similar
+
+This applies to any archive with name ending in "-For-IDE".
 
 1. Download archive and extract root directory
 2. You will have probably two subdirectories
