@@ -12,8 +12,11 @@ We will use "linked list" **for example purposes**.
 
 1. Download archive and extract all directories (e.g. "DSA-Linked-List.zip")
 2. See "MAC-UNIX" directory (if applicable)
-3. Copy your package(s) into "src" directory
-4. Copy your factory into approprite package directory (e.g. "linearpub")
+3. Copy your implementation package(s) to the "src" directory
+- for linked list, your would copy your "linkedlist" package (dir) into "src"
+- for dynamic array, your would copy your "dynarray" package (dir) into "src" 
+- etc.
+4. Copy your factory JAVA file into public package directory (e.g. "linearpub")
 5. Run "compile.bat" (e.g. double click to run)
 6. NOTE -- windows safeguards archive files, so you will likely get "windows security error". You can safely click "More Info" and then "Run Anyway".
 7. Run "unit-tests-UI.bat" (e.g. double click to run)
