@@ -10,7 +10,7 @@ This git includes generalized test code for Java projects. It is generalized usi
 
 Note: First verify (and install if needed) a Java JDK. [Here are steps...](https://objectcoding.com/Books/XdocRoot/Intro/I/103InstallingJava/103InstallingJava.html?20112813203)
 
-1. Download archive (e.g. DSA-Linked-List.zip, DSA-Dynamic-Array.zip, etc)
+1. Download archive (e.g. DSA-Linked-List.zip or DSA-Dynamic-Array.zip, etc)
 2. Extract to local machine
 3. Copy your implementation package(s) to the "src" directory
     - for linked list, you would copy your "linkedlist" package (dir) into "src"
@@ -29,7 +29,7 @@ Or run "unit-tests-z-console.bat" for headless (console) output
 
 Note: First verify (and install if needed) a Java JDK. [Here are steps...](https://objectcoding.com/Books/XdocRoot/Intro/I/103InstallingJava/103InstallingJava.html?20112813203)
 
-1. Download archive (e.g. DSA-Linked-List.zip, DSA-Dynamic-Array.zip, etc)
+1. Download archive (e.g. DSA-Linked-List.zip or DSA-Dynamic-Array.zip, etc)
 2. Extract to local machine
 3. We will call the extracted root directory "root" in these steps
 4. In root, **delete** the three BAT (.bat) files.
