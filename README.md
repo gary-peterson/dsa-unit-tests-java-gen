@@ -19,11 +19,11 @@ First [verify (and install if needed)](https://objectcoding.com/Books/XdocRoot/I
 4. Copy your factory JAVA file into public package directory (e.g. "linearpub")
 5. Run "compile.bat" (e.g., double click to run)
 6. NOTE -- windows safeguards archive files, so you will likely get "windows security error". You can safely click "More Info" and then "Run Anyway".
-7. Run "unit-tests-UI.bat" (double click to run)
+7. Run "unit-tests.bat" (double click to run)
 8. The "Unit Test Window" opens
 9. See "Using Unit Tests UI" below
 
-Or run "unit-tests-z-console.bat" for headless (console) output
+Or run "unit-tests-headless.bat" for headless (console) output
 
 ## Running From Script (for MAC or unix)
 
@@ -40,11 +40,11 @@ Or run "unit-tests-z-console.bat" for headless (console) output
 8. Open the MAC terminal window or unix console
 9. Navigate to the project root directory (in the terminal)
 10. Type and run the command **sh compile.sh**
-11. Type and run the command **sh unit-tests-UI.sh**
+11. Type and run the command **sh unit-tests.sh**
 12. The "Unit Test Window" opens
 13. See "Using Unit Tests UI" below
 
-Or, to have headless output (console only - no UI), run **unit-tests-z-console.sh** after compiling.
+Or, to have headless output (console only - no UI), run **unit-tests-headless.sh** after compiling.
 
 ## Running In IDE
 
