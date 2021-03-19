@@ -39,6 +39,7 @@ This applies to any archive with name ending in "-For-IDE".
     - File - Open Projects from File System
       - Choose full path to the first sub-directory
     - Repeat for the other subdirectory(s)
+    - Note that you may have already loaded a project (like Scorer) with a previous archive in which case you can ignore or update
 3. Find new project in IDE
 4. Copy your package(s) into "src" directory
 5. Copy your factory into "linearpub" package/directory
