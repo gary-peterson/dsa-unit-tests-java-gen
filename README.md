@@ -29,16 +29,16 @@ Or run "unit-tests-z-console.bat" for headless (console) output
 
 1. Download archive (e.g. DSA-Linked-List.zip or DSA-Dynamic-Array.zip, etc)
 2. Extract to local machine
-3. We will call the extracted root directory "root" in these steps
-4. In root, **delete** the three BAT (.bat) files.
-5. Copy the three SH (.sh) files from the MAC-UNIX directory into the root (e.g., we are replacing the BAT files with the SH files)
+3. We will call the extracted root directory **"project root"** in these steps
+4. In the project root, **delete** the three BAT (.bat) files.
+5. Copy the three SH (.sh) files from the MAC-UNIX directory into the project root (e.g., we are replacing the BAT files with the SH files)
 6. Copy your implementation package(s) to the "src" directory
     - for linked list, you would copy your "linkedlist" package (dir) into "src"
     - for dynamic array, you would copy your "dynarray" package (dir) into "src" 
     - and similar for others
 7. Copy your factory JAVA file into public package directory (e.g. "linearpub")
 8. Open the MAC terminal window or unix console
-9. Navigate to the root directory (in the terminal)
+9. Navigate to the project root directory (in the terminal)
 10. Type and run the command **sh compile.sh**
 11. Type and run the command **sh unit-tests-UI.sh**
 12. The "Unit Test Window" opens
