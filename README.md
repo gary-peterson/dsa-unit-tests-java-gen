@@ -6,9 +6,9 @@ Time constraints may prevent us from writing test code.
 
 This git includes generalized test code for Java projects. It is generalized using interfaces and a simple factory approach.
 
-## Running From Script (for Windows) - MAC and Unix are below
+Note: First [verify (and install if needed)](https://objectcoding.com/Books/XdocRoot/Intro/I/103InstallingJava/103InstallingJava.html?20112813203) a Java JDK.
 
-Note: First verify (and install if needed) a Java JDK. [Here are steps...](https://objectcoding.com/Books/XdocRoot/Intro/I/103InstallingJava/103InstallingJava.html?20112813203)
+## Running From Script (for Windows) - MAC and Unix are below
 
 1. Download archive (e.g. DSA-Linked-List.zip or DSA-Dynamic-Array.zip, etc)
 2. Extract to local machine
@@ -26,8 +26,6 @@ Note: First verify (and install if needed) a Java JDK. [Here are steps...](https
 Or run "unit-tests-z-console.bat" for headless (console) output
 
 ## Running From Script (for MAC or unix)
-
-Note: First verify (and install if needed) a Java JDK. [Here are steps...](https://objectcoding.com/Books/XdocRoot/Intro/I/103InstallingJava/103InstallingJava.html?20112813203)
 
 1. Download archive (e.g. DSA-Linked-List.zip or DSA-Dynamic-Array.zip, etc)
 2. Extract to local machine
