@@ -6,14 +6,12 @@ Time constraints may prevent us from writing test code.
 
 This git includes generalized test code for Java projects. It is generalized using interfaces and a simple factory approach.
 
-We will use "linked list" **for example purposes**.
+## Running From Script (for Windows) - MAC and Unix are below
 
-This applies to any archive with name **NOT** ending in "-For-IDE".
+Note: First verify (and install if needed) a Java JDK. [Here are steps...](https://objectcoding.com/Books/XdocRoot/Intro/I/103InstallingJava/103InstallingJava.html?20112813203)
 
-## Running From Script
-
-1. Download archive and extract all directories
-2. See "MAC-UNIX" directory (if applicable)
+1. Download archive (e.g. DSA-Linked-List.zip, DSA-Dynamic-Array.zip, etc)
+2. Extract to local machine
 3. Copy your implementation package(s) to the "src" directory
     - for linked list, you would copy your "linkedlist" package (dir) into "src"
     - for dynamic array, you would copy your "dynarray" package (dir) into "src" 
@@ -22,10 +20,33 @@ This applies to any archive with name **NOT** ending in "-For-IDE".
 5. Run "compile.bat" (e.g., double click to run)
 6. NOTE -- windows safeguards archive files, so you will likely get "windows security error". You can safely click "More Info" and then "Run Anyway".
 7. Run "unit-tests-UI.bat" (double click to run)
-8. Unit Test window opens
+8. The "Unit Test Window" opens
 9. See "Using Unit Tests UI" below
 
 Or run "unit-tests-z-console.bat" for headless (console) output
+
+## Running From Script (for MAC or unix)
+
+Note: First verify (and install if needed) a Java JDK. [Here are steps...](https://objectcoding.com/Books/XdocRoot/Intro/I/103InstallingJava/103InstallingJava.html?20112813203)
+
+1. Download archive (e.g. DSA-Linked-List.zip, DSA-Dynamic-Array.zip, etc)
+2. Extract to local machine
+3. We will call the extracted root directory "root" in these steps
+4. In root, **delete** the three BAT (.bat) files.
+5. Copy the three SH (.sh) files from the MAC-UNIX directory into the root (e.g., we are replacing the BAT files with the SH files)
+6. Copy your implementation package(s) to the "src" directory
+    - for linked list, you would copy your "linkedlist" package (dir) into "src"
+    - for dynamic array, you would copy your "dynarray" package (dir) into "src" 
+    - and similar for others
+7. Copy your factory JAVA file into public package directory (e.g. "linearpub")
+8. Open the MAC terminal window or unix console
+9. Navigate to the root directory (in the terminal)
+10. Type and run the command **sh compile.sh**
+11. Type and run the command **sh unit-tests-UI.sh**
+12. The "Unit Test Window" opens
+13. See "Using Unit Tests UI" below
+
+Or, to have headless output (console only - no UI), run **unit-tests-z-console.sh** after compiling.
 
 ## Running In IDE
 
