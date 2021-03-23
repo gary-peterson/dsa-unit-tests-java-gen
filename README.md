@@ -46,29 +46,6 @@ Or run "unit-tests-headless.bat" for headless (console) output
 
 Or, to have headless output (console only - no UI), run **unit-tests-headless.sh** after compiling.
 
-## Running In IDE
-
-Note: example here is Eclipse -- other IDE's should be similar
-
-This applies to any archive with name ending in "-For-IDE".
-
-1. Download archive and extract root directory
-2. You will have probably two subdirectories
-	in the root. Each of these is a separate project
-    - File - Open Projects from File System
-      - Choose full path to the first sub-directory
-    - Repeat for the other subdirectory(s)
-    - Note that you may have already loaded a project (like Scorer) with a previous archive in which case you can ignore or update
-3. Find new project in IDE
-4. Copy your package(s) into "src" directory
-5. Copy your factory into "linearpub" package/directory
-6. Find class "_UnitTestLauncher.java"
-7. Run it
-8. See "Using Unit Tests UI" below
-9. You can also find and run "_UnitTestManager.java" for console output
-
-Note: You should be using **JavaSE-11 or later**
-
 ## Using Unit Tests UI
 
 The simple unit test window has three areas:
