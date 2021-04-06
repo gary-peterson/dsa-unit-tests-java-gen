@@ -17,7 +17,7 @@ First [verify (and install if needed)](https://objectcoding.com/Books/XdocRoot/I
     - for dynamic array, you would copy your "dynarray" package (dir) into "src" 
     - and similar for others
 4. Copy your factory JAVA file into public package directory (e.g. "linearpub")
-5. Run "compile.bat" (e.g., double click to run)
+5. Run "compile.bat" (e.g., double click to run). If you get any compile errors, fix those, and then repeat this step.
 6. NOTE -- windows safeguards archive files, so you will likely get "windows security error". You can safely click "More Info" and then "Run Anyway".
 7. Run "unit-tests.bat" (double click to run)
 8. The "Unit Test Window" opens
@@ -39,7 +39,7 @@ Or run "unit-tests-headless.bat" for headless (console) output
 7. Copy your factory JAVA file into public package directory (e.g. "linearpub")
 8. Open the MAC terminal window or unix console
 9. Navigate to the project root directory (in the terminal)
-10. Type and run the command **sh compile.sh**
+10. Type and run the command **sh compile.sh**. If you get any compile errors, fix those, and then repeat this step.
 11. Type and run the command **sh unit-tests.sh**
 12. The "Unit Test Window" opens
 13. See "Using Unit Tests UI" below
