@@ -8,6 +8,12 @@ This git includes generalized test code for Java projects. It is generalized usi
 
 First [verify (and install if needed)](https://objectcoding.com/Books/XdocRoot/Intro/I/103InstallingJava/103InstallingJava.html?20112813203) a Java JDK.
 
+## NOTE WELL
+
+Use factories to construct objects rather than referencing implementation classes (which are effectively private).
+What we mean by that is e.g., construct a linked list like this: LinkedListFactory.newList().
+By doing this, plug and play is supported.
+
 ## Running From Script (for Windows) - MAC and Unix are below
 
 1. Download desired archive (ZIP file)
