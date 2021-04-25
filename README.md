@@ -8,43 +8,38 @@ This git includes generalized test code for Java projects. It is generalized usi
 
 First [verify (and install if needed)](https://objectcoding.com/Books/XdocRoot/Intro/I/103InstallingJava/103InstallingJava.html?20112813203) a Java JDK.
 
-## Running From Script (for Windows) - MAC and Unix are below
+## Hash Table -- Running From Script (for Windows) - MAC and Unix are below
 
-1. Download archive (e.g. DSA-Linked-List.zip or DSA-Dynamic-Array.zip, etc)
+1. Download archive (DSA-Hash-Table.zip)
 2. Extract to local machine
-3. Copy your implementation package(s) to the "src" directory
-    - for linked list, you would copy your "linkedlist" package (dir) into "src"
-    - for dynamic array, you would copy your "dynarray" package (dir) into "src" 
-    - and similar for others
-4. Copy your factory JAVA file into public package directory (e.g. "linearpub")
-5. Run "compile.bat" (e.g., double click to run). If you get any compile errors, fix those, and then repeat this step.
-6. NOTE -- windows safeguards archive files, so you will likely get "windows security error". You can safely click "More Info" and then "Run Anyway".
-7. Run "unit-tests.bat" (double click to run)
+3. Copy your implementation files to the "src/hash" directory
+4. Note: the "hashpub" package should be okay as-is (no action needed)
+5. Run the compile script
+6. NOTE -- Windows safeguards archive files, so you will likely get "windows security error". You can safely click "More Info" and then "Run Anyway".
+7. Run the "unit-tests" script
 8. The "Unit Test Window" opens
 9. See "Using Unit Tests UI" below
 
-Or run "unit-tests-headless.bat" for headless (console) output
+Or run the "unit-tests-headless" script for headless (console) output
 
 ## Running From Script (for MAC or unix)
 
-1. Download archive (e.g. DSA-Linked-List.zip or DSA-Dynamic-Array.zip, etc)
-2. Extract to local machine
-3. We will call the extracted root directory **"project root"** in these steps
-4. In the project root, **delete** the three BAT (.bat) files.
-5. Copy the three SH (.sh) files from the MAC-UNIX directory into the project root (e.g., we are replacing the BAT files with the SH files)
-6. Copy your implementation package(s) to the "src" directory
-    - for linked list, you would copy your "linkedlist" package (dir) into "src"
-    - for dynamic array, you would copy your "dynarray" package (dir) into "src" 
-    - and similar for others
-7. Copy your factory JAVA file into public package directory (e.g. "linearpub")
-8. Open the MAC terminal window or unix console
-9. Navigate to the project root directory (in the terminal)
-10. Type and run the command **sh compile.sh**. If you get any compile errors, fix those, and then repeat this step.
-11. Type and run the command **sh unit-tests.sh**
-12. The "Unit Test Window" opens
-13. See "Using Unit Tests UI" below
+1. In the test root, replace the three "BAT" fils with the three SH files (located in "MAC-UNIX" subdir)
+2. Follow the same steps as listed above for Windows
 
-Or, to have headless output (console only - no UI), run **unit-tests-headless.sh** after compiling.
+## To Run Tests In IDE project
+
+	-Add/Import/Reference the following in your IDE PROJECT:
+
+		-/src
+		-/test
+		-scorerbase.jar
+		-support.jar
+		
+	-Run Either of These:	
+	
+		-_UnitTestLauncher (it is headfull)
+		-_UnitTestManager (it is headless -- i.e. console only)	
 
 ## Using Unit Tests UI
 
@@ -64,7 +59,7 @@ The simple unit test window has three areas:
   e.g. for:
       "test_isEmpty -- FAILED"
   the test method would be "test_isEmpty" (in the identified test case class)
-  
+
 ## Coding - Factory
 
 We need to tell the unit test framework how to construct an instance of our subject class.
