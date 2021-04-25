@@ -8,17 +8,16 @@ This git includes generalized test code for Java projects. It is generalized usi
 
 First [verify (and install if needed)](https://objectcoding.com/Books/XdocRoot/Intro/I/103InstallingJava/103InstallingJava.html?20112813203) a Java JDK.
 
-## Hash Table -- Running From Script (for Windows) - MAC and Unix are below
+## Running From Script (for Windows) - MAC and Unix are below
 
-1. Download archive (DSA-Hash-Table.zip)
+1. Download desired archive (ZIP file)
 2. Extract to local machine
-3. Copy your implementation files to the "src/hash" directory
-4. Note: the "hashpub" package should be okay as-is (no action needed)
-5. Run the compile script
-6. NOTE -- Windows safeguards archive files, so you will likely get "windows security error". You can safely click "More Info" and then "Run Anyway".
-7. Run the "unit-tests" script
-8. The "Unit Test Window" opens
-9. See "Using Unit Tests UI" below
+3. Copy your implementation files to the appropriate package (in "src" subdir)
+4. Run the compile script
+5. NOTE -- Windows safeguards archive files, so you will likely get "windows security error". You can safely click "More Info" and then "Run Anyway".
+6. Run the "unit-tests" script
+7. The "Unit Test Window" opens
+8. See "Using Unit Tests UI" below
 
 Or run the "unit-tests-headless" script for headless (console) output
 
