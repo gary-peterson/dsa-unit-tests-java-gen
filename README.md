@@ -11,7 +11,7 @@ First [verify (and install if needed)](https://objectcoding.com/Books/XdocRoot/I
 ## NOTE WELL
 
 Use factories to construct objects rather than referencing implementation classes (which are effectively private).
-What we mean by that is e.g., construct a linked list like this: LinkedListFactory.newList().
+What we mean by that is e.g., construct a linked list like this: "LinkedListFactory.newList()."
 By doing this, plug and play is supported.
 
 ## Running From Script (for Windows) - MAC and Unix are below
