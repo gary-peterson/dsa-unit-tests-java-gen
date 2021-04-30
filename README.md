@@ -46,6 +46,11 @@ Or run the "unit-tests-headless" script for headless (console) output
 	
 		-_UnitTestLauncher (it is headfull)
 		-_UnitTestManager (it is headless -- i.e. console only)	
+		
+	- Test cases are here:
+
+		-test\test_cases\*Scorer.java
+		-test methods in test case: See methods named "test_*"
 
 ## Using Unit Tests UI
 
